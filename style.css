@@ -3,7 +3,6 @@
     padding: 0px;
     font-weight: 400;
     font-family: "Roboto Serif", sans-serif;
-
 }
 
 .container {
@@ -297,16 +296,32 @@ html {
     scroll-behavior: smooth;
 }
 
+.intro {
+    width: 96%;
+}
+
 /* --------------------------- */
 
-@media only screen and (max-width: 1141px) {
+@media only screen and (max-width: 1280px) {
     .images {
         display: none;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    .intro {
+        width: 45%;
+    }
+}
+
+
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .container {
+        width: 100%;
+    }
+
+    .intro {
         width: 100%;
     }
 
@@ -330,9 +345,14 @@ html {
         font-size: 40px;
     }
 
+    #home {
+        margin-right: 4%;
+    }
+
     .title p {
         font-size: 16px;
         text-align: justify;
+        padding: 10px;
     }
 
     .about-details p {
@@ -400,8 +420,12 @@ html {
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        margin-left: 6%;
     } 
 
+    .intro {
+        width: 100%;
+    }
 
     .title h1 {
         font-size: 30px;
