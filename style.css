@@ -486,16 +486,26 @@ html {
 }
 
 
-#projects .about-container {
-    align-items: start;
+/* PROJECT TEXT IMPROVEMENTS */
+#projects .about-details {
+    line-height: 1.8;
 }
 
+/* PROJECT TITLE (BOLD + CLEAR) */
 #projects .about-details h3 {
-    margin-top: 15px;
+    margin-top: 25px;
+    font-weight: 700;
 }
 
+/* PROJECT DESCRIPTION SPACING */
 #projects .about-details p {
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+/* ADD GAP BETWEEN GRID ITEMS */
+#projects .about-container {
+    column-gap: 60px;
 }
 
 
