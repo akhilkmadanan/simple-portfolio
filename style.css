@@ -484,3 +484,14 @@ html {
         font-size: 24px;
     }
 }
+
+/* PROJECT SECTION ALIGNMENT */
+#projects .about-details {
+    margin-left: 40px;
+}
+
+/* SPACING BETWEEN PROJECT ITEMS */
+#projects h3 {
+    margin-top: 20px;
+}
+
