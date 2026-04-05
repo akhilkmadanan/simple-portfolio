@@ -486,27 +486,27 @@ html {
 }
 
 
-/* PROJECT TEXT IMPROVEMENTS */
-#projects .about-details {
-    line-height: 1.8;
+/* PROJECT CARD STYLE */
+.project-item {
+    margin-bottom: 30px;
 }
 
-/* PROJECT TITLE (BOLD + CLEAR) */
-#projects .about-details h3 {
-    margin-top: 25px;
+/* PROJECT TITLE */
+.project-item h3 {
     font-weight: 700;
+    margin-bottom: 8px;
 }
 
-/* PROJECT DESCRIPTION SPACING */
-#projects .about-details p {
-    margin-top: 8px;
-    margin-bottom: 15px;
+/* DESCRIPTION */
+.project-item p {
+    margin-bottom: 6px;
+    line-height: 1.7;
 }
 
-/* ADD GAP BETWEEN GRID ITEMS */
-#projects .about-container {
-    column-gap: 60px;
+/* TECH STACK STYLE */
+.project-item .tech {
+    font-size: 14px;
+    color: #555;
+    font-weight: 600;
 }
-
-
 
