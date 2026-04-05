@@ -485,13 +485,18 @@ html {
     }
 }
 
-/* PROJECT SECTION ALIGNMENT */
-#projects .about-details {
-    margin-left: 40px;
+
+#projects .about-container {
+    align-items: start;
 }
 
-/* SPACING BETWEEN PROJECT ITEMS */
-#projects h3 {
-    margin-top: 20px;
+#projects .about-details h3 {
+    margin-top: 15px;
 }
+
+#projects .about-details p {
+    margin-bottom: 10px;
+}
+
+
 
